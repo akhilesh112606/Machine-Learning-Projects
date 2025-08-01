@@ -87,5 +87,45 @@ Given multiple features like median income, population, location, and house age 
 
 <img width="546" height="413" alt="download" src="https://github.com/user-attachments/assets/07e387a0-243b-4847-a40c-98d6a2dd02df" />
 
+# 📌 Project - 3: MPG Prediction using Regression
 
+This project implements **Multiple Linear Regression and Regularization Techniques** to predict a car's **Miles Per Gallon (MPG)** based on various engine and vehicle features. It demonstrates the application of regression models on an automotive dataset.
+
+---
+
+## 🧠 Problem Statement
+
+Given attributes like horsepower, displacement, weight, and number of cylinders, predict the **fuel efficiency (MPG)** of a vehicle to support mileage estimation and vehicle comparisons.
+
+---
+
+## 🛠️ Technologies Used
+
+- **Python**  
+- **Pandas**  
+- **NumPy**  
+- **Matplotlib / Seaborn**  
+- **Scikit-learn (sklearn)**
+
+---
+
+## 🔍 Workflow
+
+1. **Data Loading and Inspection**  
+2. **Exploratory Data Analysis (EDA)**  
+3. **Data Preprocessing** (handling missing values, encoding)  
+4. **Model Building** using Linear, Ridge, Lasso, and Elastic Net Regression  
+5. **Model Evaluation** using R² Score, MAE, MSE, and RMSE  
+6. **Visualization** of Correlations, Feature Impact, and Predictions
+
+---
+
+## 📊 Results & Observations
+
+- Strong inverse relationship found between **vehicle weight** and **MPG**  
+- **Regularized models** helped reduce overfitting and improved generalization  
+- **Elastic Net** provided a balanced approach with effective performance  
+- The regression pipeline accurately captured key relationships in automotive data
+
+<img width="347" height="59" alt="image" src="https://github.com/user-attachments/assets/547532c3-ef5b-49c4-9d05-76f0dab5868f" />
 
